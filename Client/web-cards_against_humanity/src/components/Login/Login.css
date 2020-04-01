@@ -1,0 +1,104 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.login-view-wrapper {
+    background-image: url('../../img/loginBackgroundBlurred.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 425px;
+    /* margin: 0 auto; */
+    border-radius: 8px;
+
+    position: absolute;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* Disable text highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+.login-box{
+    color: white;
+}
+
+.login-box h2 {
+    float: left;
+    font-size: 40px;
+    /* border-bottom: 2px solid #a2a2a2; */
+    margin-bottom: 50px;
+    padding: 13px 13px 13px 30px;
+}
+
+.form-group {
+    width: 90%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.form-group i {
+    width: 26px;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.form-group input {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.login-btn {
+    width: 90%;
+    float: left;
+    font: inherit;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 30px 4px 4px 4px;
+}
+
+.login-btn:hover {
+    border: 2px solid #4caf50;
+}
+
+.register-btn {
+    width: 90%;
+    float: left;
+    font: inherit;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 5px 4px 4px 4px;
+}
+
+.register-btn:hover {
+    border: 2px solid #4caf50;
+}

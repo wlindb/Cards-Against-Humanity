@@ -1,0 +1,58 @@
+.scoreboard-item-container {
+    /* border: 1px solid #a2a2a2; */
+    /* background-color: #636e72; */
+    background: radial-gradient(ellipse at 60%, #000, 70%, #a2a2a2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); 
+    color: rgb(241, 181, 15);
+    border-radius: 4px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+}
+
+.image-wrapper {
+    margin-left: 10px;
+    height: inherit;
+    width: 32px;
+}
+.image-wrapper img {
+    height: 26px;
+    width: 26px;
+    /* This is not going to be hard coded lel sry for lazy */
+    margin-top: 13px;
+    margin-left: 6px;
+}
+
+.info-wrapper {
+    width: 275px;
+    display: inline;
+    line-height: 50px;
+    height: inherit;
+}
+
+.info-wrapper h2 {
+    float: left;
+    max-width: 40%;
+    margin: 0 auto;
+    font-size: 26px;
+    padding-left: 14px;
+}
+
+.info-wrapper p {
+    float: right;
+    max-width: 40%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    font-size: 22px;
+    padding-right: 14px;
+}
+
+#ready-status-icon {
+    float: right;
+    flex-wrap: nowrap;
+    font-size: 22px;
+    padding: 14px;
+}

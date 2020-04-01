@@ -1,0 +1,28 @@
+.gameBoard-outer-container {
+    height: 80vh;
+}
+
+.card-hand-container ul {
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+.card-hand-container li {
+    float: left;
+    padding: 4px 4px 4px 4px;
+}
+
+.upper-gameboard-container {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.oppnents-card-container ul {
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+.oppnents-card-container li {
+    float: left;
+    padding: 4px 4px 4px 4px;
+}

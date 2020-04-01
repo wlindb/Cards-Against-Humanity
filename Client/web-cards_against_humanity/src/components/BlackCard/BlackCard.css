@@ -1,0 +1,39 @@
+.black-card-view-wrapper {
+    width: 150px;
+    height: 212px;
+    margin: 10px 10px 10px 10px;
+}
+
+.black-card-container {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: inherit;
+    height: inherit;
+    /* margin: 0 auto; */
+    border-radius: 8px;
+    padding: 4px 4px 4px 4px;
+
+    /* Disable text highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+.black-card-box{
+    color: white;
+    text-align: left;
+}
+
+.black-card-box h2 {
+    float: left;
+    font-size: 18px;
+    /* border-bottom: 2px solid #a2a2a2; */
+    /* margin-bottom: 50px; */
+    padding: 1px 1px 1px 1px;
+    line-height: 1;
+}
+

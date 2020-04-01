@@ -1,0 +1,53 @@
+.form-control {
+    color: #a2a2a2;
+}
+
+.create-room-wrapper {
+    height: 150px;
+    width: 100%;
+}
+
+.create-room-container-hidden {
+    position: fixed;
+    transition: ease-in-out 1s;
+    left: 0;
+    top: 0;
+    width: 26px;
+}
+
+.create-room-container-shown {
+    position: fixed;
+    transition: ease-in-out 1s;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.create-room-container-shown .form-group {
+    width: 100%;
+}
+
+
+
+.create-room-container-hidden button {
+    transition: ease-out 1s;
+    cursor: default;
+    background: none;
+    border: none;
+    color: transparent;
+}
+
+.create-room-container-shown button {
+    transition: ease-in 2s;
+    cursor: pointer;
+    color: inherit;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.roomlist-container {
+    display: inline-flex;
+    align-self: start;
+    flex-wrap: wrap;
+}

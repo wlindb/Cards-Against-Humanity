@@ -1,0 +1,13 @@
+/* .game-room-container {
+    
+} */
+
+.scoreboard-ul {
+    height: 20%;
+}
+
+.scoreboard-li {
+    margin: 2px auto;
+    list-style-type: none;
+    outline: none;
+}
